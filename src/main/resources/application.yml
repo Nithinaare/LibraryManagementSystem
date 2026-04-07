@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/nithin
+    username: postgres
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
